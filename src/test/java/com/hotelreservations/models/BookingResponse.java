@@ -1,7 +1,6 @@
 package com.hotelreservations.models;
 
 public class BookingResponse {
-
     private int bookingid;
     private Booking booking;
 

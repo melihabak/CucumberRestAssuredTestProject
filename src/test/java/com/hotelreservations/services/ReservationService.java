@@ -20,7 +20,6 @@ public class ReservationService extends BaseTest{
                 .when()
                 .body(authBody)
                 .post("/auth");
-
         response
                 .then()
                 .statusCode(200);
